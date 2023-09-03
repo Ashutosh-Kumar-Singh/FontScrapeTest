@@ -1,0 +1,16 @@
+@font-face {
+  font-family: ttffont;
+  src: url('fonts/font1.ttf')  format('truetype');
+}
+@font-face {
+  font-family: wofffont;
+  src: url('fonts/font2.woff') format('woff')
+}
+
+h1 {
+    font-family: ttffont, sans-serif;
+}
+
+p {
+    font-family: wofffont, sans-serif;
+}
